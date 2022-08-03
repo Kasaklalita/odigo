@@ -1,12 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <the-header></the-header>
 </template>
 
 <script>
-
+import TheHeader from "@/components/TheHeader";
 export default {
   name: 'App',
   components: {
+    TheHeader
   }
 }
 </script>
@@ -48,6 +49,14 @@ export default {
   img{vertical-align: top;}
 
   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+  body {
+    font-family: 'Lato';
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+  }
 
   /* lato-regular - latin */
   @font-face {
