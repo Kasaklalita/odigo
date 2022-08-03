@@ -1,13 +1,18 @@
 <template>
   <the-header></the-header>
+  <main class="main">
+    <intro-section></intro-section>
+  </main>
 </template>
 
 <script>
 import TheHeader from "@/components/TheHeader";
+import IntroSection from "@/components/IntroSection";
 export default {
   name: 'App',
   components: {
-    TheHeader
+    TheHeader,
+    IntroSection
   }
 }
 </script>

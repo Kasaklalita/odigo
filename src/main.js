@@ -1,5 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import store from './store'
+import TheWrapper from "@/components/TheWrapper";
 
-createApp(App).use(store).mount('#app')
+const app = createApp(App);
+
+app.component('the-wrapper', TheWrapper);
+
+app.mount('#app');

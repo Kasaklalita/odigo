@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<div class="wrapper">
+		<the-wrapper>
 			<div class="header__wrapper">
 				<div class="header__logo">
 					<a href="/" class="header__logo-link">
@@ -24,7 +24,7 @@
 					</ul>
 				</nav>
 			</div>
-		</div>
+		</the-wrapper>
 	</header>
 </template>
 
@@ -36,12 +36,10 @@
 
 <style scoped>
 	.header {
-		background-color: #000;
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
-
 	}
 	.header__wrapper {
 		display: flex;
@@ -65,9 +63,5 @@
 	.header__link:focus,
 	.header__link:active {
 		opacity: 75%;
-	}
-	.wrapper {
-		max-width: 1060px;
-		margin: 0 auto;
 	}
 </style>
