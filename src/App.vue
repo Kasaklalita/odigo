@@ -3,6 +3,7 @@
   <main class="main">
     <intro-section></intro-section>
     <the-benefits></the-benefits>
+    <the-places></the-places>
   </main>
 </template>
 
@@ -10,12 +11,14 @@
 import TheHeader from "@/components/TheHeader";
 import IntroSection from "@/components/IntroSection";
 import TheBenefits from "@/components/TheBenefits";
+import ThePlaces from "@/components/ThePlaces";
 export default {
   name: 'App',
   components: {
     TheHeader,
     IntroSection,
-    TheBenefits
+    TheBenefits,
+    ThePlaces
   }
 }
 </script>
@@ -97,5 +100,21 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 10rem;
+  }
+  .section-title {
+    font-weight: 500;
+    font-size: 2.1rem;
+    position: relative;
+
+  }
+  .section-title::after {
+    display: block;
+    content: '';
+    width: 250px;
+    height: 3px;
+    color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 </style>

@@ -1,9 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import TheWrapper from "@/components/TheWrapper";
+import NarrowWrapper from "@/components/NarrowWrapper";
+import WideWrapper from "@/components/WideWrapper";
 
 const app = createApp(App);
 
-app.component('the-wrapper', TheWrapper);
+app.component('narrow-wrapper', NarrowWrapper);
+app.component('wide-wrapper', WideWrapper)
 
 app.mount('#app');

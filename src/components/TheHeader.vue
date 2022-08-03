@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<the-wrapper>
+		<narrow-wrapper>
 			<div class="header__wrapper">
 				<div class="header__logo">
 					<a href="/" class="header__logo-link">
@@ -24,7 +24,7 @@
 					</ul>
 				</nav>
 			</div>
-		</the-wrapper>
+		</narrow-wrapper>
 	</header>
 </template>
 

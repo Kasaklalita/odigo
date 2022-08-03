@@ -1,6 +1,6 @@
 <template>
 	<section class="intro">
-		<the-wrapper>
+		<narrow-wrapper>
 			<h1 class="intro__title">
 				Discover Amazing places in Japan
 			</h1>
@@ -16,7 +16,7 @@
 					</p>
 				</fieldset>
 			</form>
-		</the-wrapper>
+		</narrow-wrapper>
 	</section>
 </template>
 
