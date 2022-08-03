@@ -2,17 +2,20 @@
   <the-header></the-header>
   <main class="main">
     <intro-section></intro-section>
+    <the-benefits></the-benefits>
   </main>
 </template>
 
 <script>
 import TheHeader from "@/components/TheHeader";
 import IntroSection from "@/components/IntroSection";
+import TheBenefits from "@/components/TheBenefits";
 export default {
   name: 'App',
   components: {
     TheHeader,
-    IntroSection
+    IntroSection,
+    TheBenefits
   }
 }
 </script>
@@ -51,7 +54,7 @@ export default {
   a, a:visited{text-decoration: none;}
   a:hover{text-decoration: none;}
   ul li{list-style: none;}
-  img{vertical-align: top;}
+  img{vertical-align: top; max-width: 100%; height: auto}
 
   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
@@ -89,5 +92,10 @@ export default {
     src: local(''),
     url('fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
     url('fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
   }
 </style>
