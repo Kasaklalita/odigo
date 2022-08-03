@@ -4,6 +4,7 @@
     <intro-section></intro-section>
     <the-benefits></the-benefits>
     <the-places></the-places>
+    <the-tours></the-tours>
   </main>
 </template>
 
@@ -12,13 +13,15 @@ import TheHeader from "@/components/TheHeader";
 import IntroSection from "@/components/IntroSection";
 import TheBenefits from "@/components/TheBenefits";
 import ThePlaces from "@/components/ThePlaces";
+import TheTours from "@/components/TheTours";
 export default {
   name: 'App',
   components: {
     TheHeader,
     IntroSection,
     TheBenefits,
-    ThePlaces
+    ThePlaces,
+    TheTours
   }
 }
 </script>

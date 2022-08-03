@@ -5,7 +5,7 @@
 		</div>
 		<h3 class="benefits__card-title">{{benefit['title']}}</h3>
 		<p class="benefits__card-desc">{{benefit['description']}}</p>
-		<a href="" class="benefits__card-more">LEARN MORE</a>
+		<see-more-link to="#" content="LEARN MORE"></see-more-link>
 	</div>
 </template>
 
@@ -35,20 +35,5 @@
 	.benefits__card-desc {
 		font-size: 1.1rem;
 		line-height: 1.5rem;
-	}
-	.benefits__card-more {
-		align-self: flex-start;
-		display: inline-block;
-		padding-right: 60px;
-		font-size: 1rem;
-		text-transform: uppercase;
-		text-decoration: none;
-		color: #006DFE;
-		background: url("../assets/arrow-icon.svg") no-repeat 95% center;
-		transition: 0.2s;
-	}
-	.benefits__card-more:hover,
-	.benefits__card-more:focus {
-		background: url("../assets/arrow-icon.svg") no-repeat right center;
 	}
 </style>

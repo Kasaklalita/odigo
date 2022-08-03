@@ -3,7 +3,7 @@
 		<wide-wrapper>
 			<div class="places__caption">
 				<h2 class="places__title section-title">Get inspired for your next trip</h2>
-				<a href="" class="places__view-all">VIEW ALL</a>
+				<see-more-link to="#" content="VIEW ALL" style="align-self: flex-end;"></see-more-link>
 			</div>
 			<div class="places__cards">
 				<place-card size="card_size_lg" caption="Mount Fuji"></place-card>
@@ -36,20 +36,6 @@
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-	}
-	.places__view-all {
-		display: inline-block;
-		padding-right: 60px;
-		font-size: 1rem;
-		text-transform: uppercase;
-		text-decoration: none;
-		color: #006DFE;
-		background: url("../assets/arrow-icon.svg") no-repeat 95% center;
-		transition: 0.2s;
-	}
-	.places__view-all:hover,
-	.places__view-all:focus {
-		background: url("../assets/arrow-icon.svg") no-repeat right center;
 	}
 	.places__cards {
 		display: grid;
