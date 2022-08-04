@@ -82,4 +82,21 @@
 	.search-form__submit:active {
 		background-color: #0E66DA;
 	}
+
+	@media screen and (max-width: 767px) {
+		.search-form__info {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+		.search-form__submit {
+			align-self: flex-start;
+		}
+	}
+
+	@media screen and (max-width: 960px) {
+		.search-form__field {
+			margin-bottom: 25px;
+		}
+	}
 </style>
