@@ -77,7 +77,7 @@
 			padding: 0 15px;
 		}
 		.benefits {
-			margin-top: -15rem;
+			margin-top: 0;
 		}
 	}
 

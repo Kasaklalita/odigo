@@ -107,4 +107,19 @@
 	.footer__menu-link:active {
 		opacity: 0.75;
 	}
+
+	@media screen and (max-width: 767px) {
+		.footer__item {
+			flex-direction: column;
+			align-items: center;
+			gap: 2rem;
+		}
+		.footer__logo {
+			display: flex;
+			justify-content: space-around;
+		}
+		.footer__nav {
+			width: 90%;
+		}
+	}
 </style>
