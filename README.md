@@ -1,24 +1,24 @@
-# odigo
+# odigo - Discover Amazing places in Japan
 
-## Project setup
+## Инструкция:
+
+### Открыть корневую директорию проекта (в консоли или терминале) и прописать следующую команду:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Дождаться окончания установки и ввести следующую команду:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### После запуска сервера перейти по одной из следующих ссылок:
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+http://localhost:8080/
+http://192.168.1.28:8080/
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Оценить работу, сообщить о неточностях, предложить идеи
+```
+https://github.com/Kasaklalita
+```
