@@ -49,4 +49,13 @@
 	.tour__description {
 		line-height: 1.5rem;
 	}
+
+	@media screen and (max-width: 767px) {
+		.tour {
+			display: flex;
+			flex-direction: column;
+			gap: 3rem;
+			align-items: center;
+		}
+	}
 </style>
