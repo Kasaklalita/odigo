@@ -164,5 +164,8 @@
 		.header__nav-close-line:last-child {
 			transform: translateY(-50%) rotate(-45deg);
 		}
+		.header__wrapper {
+			padding-top: 20px;
+		}
 	}
 </style>

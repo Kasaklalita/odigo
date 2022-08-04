@@ -24,17 +24,17 @@
 				benefits: [
 					{
 						title: 'Welcome to Odigo!',
-						description: 'Jump off balcony, onto stranger\'s head. Chase ball of string hide when guests come over.',
+						description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam soluta dolorum tempora!',
 						imageUrl: '../assets/church-icon.svg'
 					},
 					{
 						title: 'Your Personal Japan Guide',
-						description: 'Jump off balcony, onto stranger\'s head. Chase ball of string hide when guests come over.',
+						description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas vel debitis odio aspernatur ipsam officia ab, quasi!',
 						imageUrl: '../assets/person-icon.svg'
 					},
 					{
 						title: 'Promoting Local Businesses',
-						description: 'Jump off balcony, onto stranger\'s head. Chase ball of string hide when guests come over.',
+						description: 'Recusandae voluptate aliquam, iste unde mollitia nesciunt, culpa ipsum perspiciatis similique quibusdam possimus!',
 						imageUrl: '../assets/building-icon.svg'
 					}
 				]

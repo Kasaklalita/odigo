@@ -61,4 +61,29 @@
 		height: 100%;
 		z-index: 4;
 	}
+
+	@media screen and (max-width: 767px) {
+		.card_size_lg {
+			grid-column: span 4;
+		}
+		.card_size_sm {
+			grid-column: span 2;
+		}
+		.card_size_sm:last-of-type {
+			grid-column: span 4;
+		}
+	}
+	@media screen and (max-width: 500px) {
+		.card_size_lg {
+			grid-column: span 1;
+		}
+
+		.card_size_sm {
+			grid-column: span 1;
+		}
+
+		.card_size_sm:last-of-type {
+			grid-column: span 1;
+		}
+	}
 </style>

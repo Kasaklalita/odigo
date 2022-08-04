@@ -42,4 +42,19 @@
 		grid-template-columns: repeat(6, 1fr);
 		grid-gap: 10px;
 	}
+
+	@media screen and (max-width: 767px) {
+		.places__cards {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: 10px;
+		}
+	}
+	@media screen and (max-width: 500px) {
+		.places__cards {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: 10px;
+		}
+	}
 </style>

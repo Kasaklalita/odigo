@@ -5,7 +5,7 @@
 				Discover Amazing places in Japan
 			</h1>
 			<p class="intro__subtitle">
-				Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door,
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit et, consectetur, aliquid modi dolorem dolorum enim error nam! Aperiam, ipsum. Assumenda fugit sed debitis reprehenderit culpa repellendus, magnam blanditiis fugiat.
 			</p>
 			<form class="search-form">
 				<fieldset class="search-form__wrap">
@@ -32,6 +32,7 @@
 		background: url("../assets/intro-bg.jpg") no-repeat center;
 		background-size: cover;
 		padding-top: 16.25rem;
+		padding-bottom: 3rem;
 	}
 	.intro__title {
 		font-weight: 500;
@@ -81,6 +82,12 @@
 	.search-form__submit:focus,
 	.search-form__submit:active {
 		background-color: #0E66DA;
+	}
+
+	@media screen and (max-width: 500px) {
+		.intro {
+			padding-top: 10rem;
+		}
 	}
 
 	@media screen and (max-width: 767px) {
