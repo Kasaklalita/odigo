@@ -30,7 +30,17 @@
 
 <script>
 	export default {
-		name: "TheHeader"
+		name: "TheHeader",
+		mounted() {
+			const header = document.querySelector('.header');
+			window.onscroll = () => {
+				if (window.pageYOffset > 50) {
+					header.classList.add('header_active');
+				} else {
+					header.classList.remove('header_active');
+				}
+			};
+		}
 	}
 </script>
 
@@ -40,6 +50,12 @@
 		top: 0;
 		left: 0;
 		width: 100%;
+		transition: 0.2s linear;
+		padding-bottom: 20px;
+		z-index: 20;
+	}
+	.header_active {
+		background: #0E1D28;
 	}
 	.header__wrapper {
 		display: flex;

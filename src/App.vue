@@ -6,7 +6,9 @@
     <the-places></the-places>
     <the-tours></the-tours>
     <top-places></top-places>
+    <the-videos></the-videos>
   </main>
+  <the-footer></the-footer>
 </template>
 
 <script>
@@ -16,6 +18,8 @@ import TheBenefits from "@/components/TheBenefits";
 import ThePlaces from "@/components/ThePlaces";
 import TheTours from "@/components/TheTours";
 import TopPlaces from "@/components/TopPlaces";
+import TheVideos from "@/components/TheVideos";
+import TheFooter from "@/components/TheFooter";
 export default {
   name: 'App',
   components: {
@@ -24,7 +28,9 @@ export default {
     TheBenefits,
     ThePlaces,
     TheTours,
-    TopPlaces
+    TopPlaces,
+    TheVideos,
+    TheFooter
   }
 }
 </script>

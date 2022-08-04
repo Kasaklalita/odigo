@@ -11,3 +11,5 @@ app.component('wide-wrapper', WideWrapper);
 app.component('see-more-link', SeeMoreLink);
 
 app.mount('#app');
+
+
