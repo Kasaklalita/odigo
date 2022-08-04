@@ -14,5 +14,6 @@
 	.wide-wrapper {
 		max-width: 1260px;
 		margin: 0 auto;
+		padding: 0 15px;
 	}
 </style>
