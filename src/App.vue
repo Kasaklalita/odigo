@@ -5,6 +5,7 @@
     <the-benefits></the-benefits>
     <the-places></the-places>
     <the-tours></the-tours>
+    <top-places></top-places>
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import IntroSection from "@/components/IntroSection";
 import TheBenefits from "@/components/TheBenefits";
 import ThePlaces from "@/components/ThePlaces";
 import TheTours from "@/components/TheTours";
+import TopPlaces from "@/components/TopPlaces";
 export default {
   name: 'App',
   components: {
@@ -21,7 +23,8 @@ export default {
     IntroSection,
     TheBenefits,
     ThePlaces,
-    TheTours
+    TheTours,
+    TopPlaces
   }
 }
 </script>
@@ -103,6 +106,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 10rem;
+    justify-content: space-between;
   }
   .section-title {
     font-weight: 500;

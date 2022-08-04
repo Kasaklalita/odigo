@@ -44,6 +44,9 @@
 </script>
 
 <style scoped>
+	.benefits {
+		margin-top: -22rem;
+	}
 	.benefits__wrap {
 		max-width: 1262px;
 		background-color: white;
@@ -56,10 +59,10 @@
 		font-weight: 500;
 		font-size: 2.1rem;
 		padding: 90px 100px 88px 100px;
-		position: absolute;
+		/*position: absolute;*/
 		top: 0;
 		left: 0;
-		transform: translateY(-99%);
+		/*transform: translateY(-99%);*/
 		background-color: white;
 	}
 	.benefits__cards {
