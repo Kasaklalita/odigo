@@ -71,4 +71,21 @@
 		grid-column-gap: 55px;
 		padding: 0 100px;
 	}
+
+	@media screen and (max-width: 767px) {
+		.benefits__cards {
+			padding: 0 15px;
+		}
+		.benefits {
+			margin-top: -15rem;
+		}
+	}
+
+	@media screen and (max-width: 560px) {
+		.benefits__cards {
+			grid-template-columns: repeat(1, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+			padding: 0 50px;
+		}
+	}
 </style>

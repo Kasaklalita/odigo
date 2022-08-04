@@ -83,4 +83,15 @@
 		grid-template-columns: repeat(3, 1fr);
 		gap: 2rem;
 	}
+
+	@media screen and (max-width: 767px) {
+		.top__cards {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	@media screen and (max-width: 400px) {
+		.top__cards {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
 </style>

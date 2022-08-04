@@ -130,4 +130,10 @@ export default {
     bottom: 0;
     left: 0;
   }
+
+  @media screen and (max-width: 767px) {
+    .main {
+      gap: 5rem;
+    }
+  }
 </style>

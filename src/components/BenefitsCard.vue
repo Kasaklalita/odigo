@@ -36,4 +36,10 @@
 		font-size: 1.1rem;
 		line-height: 1.5rem;
 	}
+
+	@media screen and (max-width: 560px) {
+		.benefits__card {
+			margin-bottom: 2rem;
+		}
+	}
 </style>
